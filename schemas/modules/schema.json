@@ -53,7 +53,15 @@
       "items": {
         "type": "string",
         "description": "Lifecycle hooks implemented by the module.",
-        "examples": ["beforeBoot", "afterBoot", "afterConfigLoaded"]
+        "examples": [
+          "beforeBoot",
+          "afterBoot",
+          "beforeModuleLoad",
+          "afterModuleLoad",
+          "beforeModuleRegister",
+          "afterModuleRegister",
+          "afterConfigLoaded"
+        ]
       },
       "description": "List of lifecycle hooks."
     },
